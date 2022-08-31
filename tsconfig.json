@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "sourceMap": false,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["DOM", "ES2015", "ES2016", "ES2017"],
+    "jsx": "react",
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "types": ["jest"],
+    "typeRoots": ["node_modules/@types", "types"],
+    "paths": {
+      "@app": ["src"],
+      "@app/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules", "test"]
+}
